@@ -1,39 +1,112 @@
-**Welcome to your Base44 project** 
+# Liviel Tours Travel ✈️
 
-**About**
+A modern travel and business services web application for **Liviel Tours Travel**, a Dubai-based agency offering a wide range of travel, tourism, and business support services.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+---
 
-This project contains everything you need to run your app locally.
+## 🌍 About
 
-**Edit the code in your local development environment**
+Liviel Tours Travel is your trusted partner in Dubai for seamless travel experiences and professional business services. Whether you're visiting for leisure, relocating, or setting up a business in the UAE, we've got you covered.
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+---
 
-**Prerequisites:** 
+## 🛎️ Services
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+- ✈️ **Airport Pickup & Drop-off** — Reliable, punctual transfers across Dubai and the UAE
+- 🏨 **Hotel Booking** — Curated hotel selections for every budget and preference
+- 🏢 **UAE Business Setup** — End-to-end assistance for company registration and licensing in the UAE
+- 🛡️ **Dubai Police Clearance** — Hassle-free processing of police clearance certificates
+- 🗺️ **Tour Packages** — Guided city tours, desert safaris, and UAE excursions
+- 🚗 **Car Rentals** — Flexible vehicle hire options across the Emirates
+- 📋 **Visa Assistance** — Tourist, transit, and residence visa support
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Vite](https://vitejs.dev/)
+- **Frontend:** React + JavaScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Linting:** ESLint
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/georgek2/Liviel.git
+cd Liviel
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Output is generated in the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+This project is configured for deployment on:
+
+- **Cloudflare Pages** — Connect your GitHub repo and set build command to `npm run build`, output directory to `dist`
+- **AWS Amplify** — Import from GitHub, build settings are auto-detected
+
+> **Note:** Never commit the `dist/` folder or `.env.local` file. Environment variables should be configured directly in your deployment platform's dashboard.
+
+---
+
+## 📁 Project Structure
 
 ```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
-
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+Liviel/
+├── src/              # Application source code
+├── public/           # Static assets
+├── components.json   # shadcn/ui component config
+├── tailwind.config.js
+├── vite.config.js
+└── index.html
 ```
 
-Run the app: `npm run dev`
+---
 
-**Publish your changes**
+## 📞 Contact
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+**Liviel Tours Travel**
+📍 Dubai, United Arab Emirates
+🌐 [liviel.com](https://liviel.com)
 
-**Docs & Support**
+---
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+## 📄 License
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+© 2025 Liviel Tours Travel. All rights reserved.
