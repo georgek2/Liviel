@@ -237,12 +237,12 @@ export default function ServicesSection() {
               </div>
 
               {/* Image */}
-              <div className="relative min-h-[640px] lg:min-h-0">
+              <div className="relative min-h-[360px] sm:min-h-[440px] lg:min-h-0 lg:min-h-[640px]">
                 <div className="absolute inset-0 bg-gradient-to-tr from-yellow-500/10 via-transparent to-accent/10 pointer-events-none" />
                 <img
                   src="/images/business-setup.png"
                   alt="UAE Business Setup"
-                  className="absolute inset-0 w-full h-full object-cover object-top"
+                  className="absolute inset-0 w-full h-full object-contain object-top lg:object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
